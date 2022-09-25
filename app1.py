@@ -64,7 +64,7 @@ def main():
             #            higher, internet, romantic, famrel, freetime, goout, Dalc,
             #            Walc, health, absences, annual_grades_avg)
             result= performance_predictor(df)
-        st.success("The evaluation is {}".format(result[0]))
+        st.success("The evaluation is {}".format(result.np())
 
 if __name__=='__main__':
     main()
